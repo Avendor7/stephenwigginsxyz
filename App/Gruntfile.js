@@ -157,8 +157,8 @@ module.exports = function (grunt) {
 
         // Empties folders to start fresh
         clean: {
+            options: { force: true },
             dist: {
-                options: { force: true },
                 files: [{
                     dot: true,
                     src: [
@@ -166,7 +166,8 @@ module.exports = function (grunt) {
                         '<%= yeoman.dist %>/{,*/}*',
                         '!<%= yeoman.dist %>/.git{,*/}*'
                     ]
-                }]
+                }],
+
             },
 
             server: '.tmp'
