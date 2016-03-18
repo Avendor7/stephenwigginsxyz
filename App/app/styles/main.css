@@ -74,7 +74,7 @@ p {
     background-color: #009688;
     color: rgba(255, 255, 255, 0.84);
     border: 0;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-bottom: 1px solid transparent;
 }
 
@@ -103,4 +103,11 @@ img.login-logo {
 .btn {
     background-color: #009688;
     color: white;
+}
+hr{
+    background-color: #009688;
+    /*background-color: #FFF;*/
+}
+ul {
+    list-style: none;
 }
