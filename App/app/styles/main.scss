@@ -1,11 +1,11 @@
 //colors
 $red: #ff0000;
 $black: #000;
-$color_limed_spruce_approx: #37474f;
+$color_limed_spruce_approx: #374755;
 $color_log_cabin_approx: #212121;
 $color_gallery_approx: #eee;
 $alabaster: #fafafa;
-$color_gossamer_approx: #009688;
+$color_gossamer_approx: #007796;
 $white_84: rgba(255, 255, 255, 0.84);
 $white: white;
 
@@ -70,6 +70,7 @@ p {
 		border: 0;
 		padding: 5px 10px;
 		border-bottom: 1px solid transparent;
+        font-family: $font_0;
 	}
 	.card-white {
 		background-color: $color_gallery_approx;
@@ -100,7 +101,13 @@ hr {
 	background-color: $color_gossamer_approx;
 }
 ul {
-	list-style: none;
+     margin-left:0;
+     padding-left:0;
+     
+	li{
+        list-style: none;
+    }
+    
 }
 img.login-logo {
 	padding: 35px;
