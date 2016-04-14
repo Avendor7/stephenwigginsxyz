@@ -8,6 +8,7 @@ $alabaster: #fafafa;
 $color_gossamer_approx: #007796;
 $white_84: rgba(255, 255, 255, 0.84);
 $white: white;
+$linkColour:#337ab7;
 
 //fonts
 $font_0: Ubuntu;
@@ -57,11 +58,14 @@ p {
 	p {
 		margin: 15px;
 	}
+    a{
+        color:$linkColour;
+    }
 }
 .card {
 	background-color: $color_log_cabin_approx;
 	color: $alabaster;
-	font-size: 14pt;
+	font-size: 12pt;
 	.card-heading {
 		background-color: $color_gossamer_approx;
 		color: $white_84;
@@ -74,13 +78,17 @@ p {
         h2{
             margin-top:10px;
             margin-left:10px;
-            font-size:24pt;
+            
+        }
+        h3{
+            font-size:26pt;
         }
 	}
 	.card-white {
 		background-color: $color_gallery_approx;
 		color: $black;
 	}
+    
 }
 .card-pad {
 	margin-top: 60px;
@@ -105,7 +113,14 @@ p {
 hr {
 	background-color: $color_gossamer_approx;
 }
-ul {
+
+img.login-logo {
+	padding: 35px;
+	height: 200px;
+	width: 400px;
+}
+
+.no-bullets {
      margin-left:0;
      padding-left:0;
      
@@ -114,12 +129,7 @@ ul {
     }
     
 }
-img.login-logo {
-	padding: 35px;
-	height: 200px;
-	width: 400px;
+.topbottomPadding{
+    padding-top:15px;
+    padding-bottom: 15px;
 }
-card-body{
-    
-}
-
